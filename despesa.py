@@ -19,8 +19,7 @@ class Despesa:
         return self.descricao
 
     def print_despesa(self):
-        print(f'- Descrição: {self.descricao}')
-        print(f'- Categoria: {self.categoria}')
-        print(f'- Valor: R$ {self.valor}')
-        print(f'- Data: {self.data.strftime("%d/%m/%y")}')
-        print('')
+        print(f"- Descrição: {self.descricao}")
+        print(f"- Valor: R$ {self.valor}")
+        print(f"- Data: {self.data.strftime("%d/%m/%y")}")
+        print("")
