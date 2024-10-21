@@ -13,7 +13,7 @@ class Despesa:
         return self.valor
     
     def get_data(self):
-        return self.data
+        return self.data.strftime("%d/%m/%y")
 
     def get_descricao(self):
         return self.descricao

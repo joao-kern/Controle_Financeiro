@@ -1,5 +1,6 @@
 from categoria import Categoria
 
+
 class ControleFinanceiro:
     def __init__(self):
         self.categorias = {

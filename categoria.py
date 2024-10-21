@@ -20,6 +20,7 @@ class Categoria:
     
     def set_limite(self, limite):
         self.limite = limite
+        self.set_limite_ultrapassado()
 
     def set_limite_ultrapassado(self):
         if self.limite != "Não definido":
