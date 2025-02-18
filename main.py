@@ -24,7 +24,7 @@ sistema.get_controle_financeiro().add_despensa_categoria(despesa5, "Internet")
 sistema.get_controle_financeiro().add_despensa_categoria(despesa6, "Alimentação")
 sistema.get_controle_financeiro().add_despensa_categoria(despesa7, "Transporte")
 sistema.get_controle_financeiro().add_despensa_categoria(despesa8, "Entreterimento")
-5
+
 def main():
     sistema.run()
 
